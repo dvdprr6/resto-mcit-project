@@ -95,10 +95,13 @@ footer{
 
 footer a i{
     color: #ffffff;
+    text-decoration: none;
+    padding:0 5px;
 }
 
 footer p{
     color: #ffffff;
+    text-align: right;
 }
 
 /******************/
