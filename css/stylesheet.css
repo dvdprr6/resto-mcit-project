@@ -43,13 +43,63 @@ body {
     1px 1px 0 #000;
 }
 
-/* MAIN */
+/* Main */
 #reservation h2{
     font-size: 25px;
     text-align: center;
+    color: #ac1121;
 }
 
 #reservation .date-buttons{
     padding-bottom: 13px;
 }
+
+#details{
+    margin-top: 10px;
+    background-color: #efe09b;
+}
+
+#details h2{
+    text-align: center;
+    color: #ac1121;
+
+}
+
+/* Contact Details */
+#details p{
+    color: #ac1121;
+}
+#details #list{
+    margin:0 auto;
+}
+
+#details .address p{
+    color: #000000;
+    text-align: center;
+    margin: 0 0 0;
+}
+
+#details iframe{
+    width:100%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+/* Footer */
+
+footer{
+    background-color: #000000;
+    padding: 10px 0;
+}
+
+footer a i{
+    color: #ffffff;
+}
+
+footer p{
+    color: #ffffff;
+}
+
+
 /**********************************************************************/
