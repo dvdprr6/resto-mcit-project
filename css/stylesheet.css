@@ -15,6 +15,37 @@ body {
     float: left;
 }
 
+.jumbotron h1, .jumbotron h2, .jumbotron p{
+    color: #ffffff;
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.jumbotron p{
+    font-size: 15px;
+}
+
+footer{
+    background-color: #000000;
+    padding: 10px 0;
+}
+
+footer a i{
+    color: #ffffff;
+    text-decoration: none;
+    padding:0 5px;
+}
+
+footer p{
+    color: #ffffff;
+    text-align: right;
+}
+
+
 
 /**********************************************************************/
 /*                          MOBILE                                    */
@@ -33,15 +64,7 @@ body {
     overflow: hidden;
 }
 
-.jumbotron h1, .jumbotron h2{
-    color: #ffffff;
-    text-align: center;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
+
 
 /* Main */
 .reservation h2{
@@ -86,40 +109,11 @@ body {
     padding: 10px 0;
 }
 
-/* Footer */
 
-footer{
-    background-color: #000000;
-    padding: 10px 0;
-}
-
-footer a i{
-    color: #ffffff;
-    text-decoration: none;
-    padding:0 5px;
-}
-
-footer p{
-    color: #ffffff;
-    text-align: right;
-}
 
 /******************/
 /*   ABOUT.HTML   */
 /******************/
-
-
-/* Hero Banner */
-.jumbotron p{
-    color: #ffffff;
-    text-align: center;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-    font-size: 15px;
-}
 
 
 /* Main */
