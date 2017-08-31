@@ -15,6 +15,11 @@ body {
     float: left;
 }
 
+.center{
+    display: block;
+    margin: 0 auto;
+}
+
 .jumbotron h1, .jumbotron h2, .jumbotron p{
     color: #ffffff;
     text-align: center;
@@ -92,14 +97,16 @@ footer p{
 .details p{
     color: #ac1121;
 }
+
 .details #list{
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .details .address p{
     color: #000000;
     text-align: center;
     margin: 0 0 0;
+    font-weight: bold;
 }
 
 .details iframe{
@@ -121,5 +128,27 @@ footer p{
     text-align: center;
 }
 
+
+/**********************************************************************/
+
+/**********************************************************************/
+/*                          TABLET                                    */
+/**********************************************************************/
+
+@media(min-width: 768px){
+    /******************/
+    /*   INDEX.HTML   */
+    /******************/
+
+    /* Contact Details */
+
+    .details .address p{
+        font-weight: bold;
+    }
+
+
+
+
+}
 
 /**********************************************************************/
