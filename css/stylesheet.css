@@ -96,7 +96,9 @@ footer p{
 /* Contact Details */
 .details p{
     color: #ac1121;
+    margin: 0 0 0 0;
 }
+
 
 .details #list{
     margin: 0 auto;
@@ -187,7 +189,6 @@ footer p{
   color: #000000;
   margin: 0 auto;
   height: 50px;
-  /*width: 25rem;*/
 }
 
 .read-review .rating .rating-star{
