@@ -129,7 +129,7 @@ footer p{
 }
 
 /******************/
-/*   REVIEWS.HTML   */
+/*  REVIEWS.HTML  */
 /******************/
 
 /* Write a Review */
@@ -138,31 +138,102 @@ footer p{
     text-align: center;
 }
 
-.rating{
+.write-review .rating p{
+    margin: 0 0 0 0;
+}
+
+.write-review .rating{
     unicode-bidi: bidi-override;
     direction: rtl;
     text-align: left;
 }
 
-.rating > span{
+.write-review .rating > span{
     display: inline-block;
     position: relative;
     width: 1.1em;
     font-size: 30px;
 }
 
-.rating > span:hover,
-.rating > span:hover ~ span{
+.write-review .rating > span:hover,
+.write-review.rating > span:hover ~ span{
     color: transparent;
 }
 
-.rating > span:hover:before,
-.rating > span:hover ~ span:before{
+.write-review .rating > span:hover:before,
+.write-review .rating > span:hover ~ span:before{
     content: "\2605";
     position: absolute;
     left: 0;
     color: gold;
 }
+
+.write-review textarea{
+    margin-bottom: 10px;
+}
+
+/* Read a Review */
+
+.read-review h2,
+.read-review h3{
+    text-align: center;
+}
+
+.read-review p{
+    margin: 0 0 0 0;
+}
+
+.read-review .rating{
+  color: #000000;
+  margin: 0 auto;
+  height: 50px;
+  /*width: 25rem;*/
+}
+
+.read-review .rating .rating-star{
+  font-size: 3rem;
+  width: 3rem;
+  height: 3rem;
+  padding: 0 2rem;
+  position: relative;
+  display: block;
+  float:left;
+}
+
+.read-review .rating .full-star:before {
+  color: #f2b01e;
+  content: "\2605";
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+
+.read-review .rating .empty-star:before {
+  content: "\2605";
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+
+.read-review .rating .half-star:before {
+  color: #f2b01e;;
+  content: "\2605";
+  width: 50%;
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+
+.read-review .rating .half-star:after {
+  content: '\2605';
+  position: absolute;
+  left: 1.5rem;
+  width: 50%;
+  text-indent: -1.5rem;
+  overflow: hidden;
+}
+
+
 
 /**********************************************************************/
 

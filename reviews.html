@@ -17,7 +17,6 @@
   </head>
 
   <body>
-
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -41,31 +40,292 @@
     </nav> <!-- /.navbar .navbar-default .navbar-fixed-top -->
 
     <section class="write-review">
-      <div class="row">
-        <div class="col-xs-12">
-          <h1>Write A Review</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <form>
-            <div class="form-group">
-              <label for="yourName" class="sr-only">Your Name</label>
-              <input type="text" class="form-control" id="yourName" placeholder="Name">
-            </div>
-            <div class="form-group">
-              <label for="yourEmail" class="sr-only">Your Email</label>
-              <input type="email" class="form-control" id="yourEmail" placeholder="Email">
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>Write A Review</h1>
+          </div> <!-- /.col-xs-12 -->
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="col-xs-12">
+            <form>
+              <div class="form-group">
+                <label for="yourName" class="sr-only">Your Name</label>
+                <input type="text" class="form-control" id="yourName" placeholder="Name">
+              </div> <!-- /.form-group -->
+              <div class="form-group">
+                <label for="yourEmail" class="sr-only">Your Email</label>
+                <input type="email" class="form-control" id="yourEmail" placeholder="Email">
+              </div> <!-- /.form-group -->
+              <div class="rating">
+                <p>Service</p>
+                <span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
+              </div> <!-- /.rating -->
+              <div class="rating">
+                <p>Food</p>
+                <span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
+              </div> <!-- /.rating -->
+              <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+              <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+          </div> <!-- /.col-xs-12 -->
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+    </section> <!-- /.write-review -->
+
+    <section class="read-review">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>Read What People are Saying About Us!</h2>
+          </div> <!-- /.col-xs-12 -->
+        </div> <!-- /.row -->
+        <!-- PROFILE ONE -->
+        <div class="row">
+          <div class="col-xs-12">
+            <svg height="20" width="100%">
+              <line x1="100%" y1="10" x2="0" y2="10" style="stroke:rgb(0,0,0);stroke-width:2" />
+            </svg>
+          </div> <!-- /.col-xs-12 -->
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="col-xs-8 col-sm-4">
+            <div class="img-thumbnail">
+              <img src="img/profile.jpg" alt="profile-img1">
+            </div> <!-- /.img-thumbnail -->
+          </div> <!-- /.col-xs-8 .col-sm-4-->
+          <div class="col-xs-4 col-sm-2">
+            <p>Name</p>
+          </div> <!-- /.col-xs-4 .col-sm-2-->
+          <div class="hidden-xs col-sm-1">
+            <svg height="175" width="100%">
+              <line x1="10" y1="100%" x2="10" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+            </svg>
+          </div> <!-- /.hidden-xs col-sm-1 -->
+          <div class="col-xs-12 col-sm-5">
+            <h3>Overall Rating: 4.5</h3>
+            <p>Food</p>
             <div class="rating">
-              <p>Food</p>
-              <span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Submit</button>
-          </form>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star half-star"></span>
+              <span class="rating-star empty-star"></span>
+            </div> <!-- /.rating -->
+            <p>Service</p>
+            <div class="rating">
+              <span class="rating-star full-star"></span>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star half-star"></span>
+              <span class="rating-star empty-star"></span>
+            </div> <!-- /.rating -->
+          </div> <!-- /.col-xs-12 .col-sm-5-->  
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="col-xs-12">
+            <p>
+              Maecenas vel nunc eros. Integer accumsan aliquam arcu, eu finibus magna. 
+              Aenean tincidunt in velit dictum consectetur. Morbi faucibus vehicula purus 
+              sit amet porttitor. Donec ultricies, quam et tempor hendrerit, neque neque 
+              blandit lorem, vitae sollicitudin mi lectus varius eros. Donec in mollis felis. 
+              Maecenas iaculis quam ante, quis semper sapien posuere quis. 
+              Morbi et gravida libero, sit amet ornare leo. Cras iaculis posuere risus, 
+              ac bibendum lorem lacinia sed. Nullam vitae nunc eu ligula placerat sagittis 
+              sed non ante. 
+            </p>
+          </div> <!-- /.col-xs-12 -->
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="col-xs-12">
+            <button type="submit" class="btn btn-primary btn-block">Reply</button>
+          </div>  <!-- /.col-xs-12 -->
         </div>
-      </div>
-    </section>
+        <!-- PROFILE TWO -->
+        <div class="row">
+          <div class="col-xs-12">
+            <svg height="20" width="100%">
+              <line x1="100%" y1="10" x2="0" y2="10" style="stroke:rgb(0,0,0);stroke-width:2" />
+            </svg>
+          </div> <!-- /.col-xs-12 -->
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="col-xs-8 col-sm-4">
+            <div class="img-thumbnail">
+              <img src="img/profile.jpg" alt="profile-img1">
+            </div> <!-- /.img-thumbnail -->
+          </div> <!-- /.col-xs-8 .col-sm-4-->
+          <div class="col-xs-4 col-sm-2">
+            <p>Name</p>
+          </div> <!-- /.col-xs-4 .col-sm-2-->
+          <div class="hidden-xs col-sm-1">
+            <svg height="175" width="100%">
+              <line x1="10" y1="100%" x2="10" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+            </svg>
+          </div> <!-- /.hidden-xs col-sm-1 -->
+          <div class="col-xs-12 col-sm-5">
+            <h3>Overall Rating: 4.5</h3>
+            <p>Food</p>
+            <div class="rating">
+              <span class="rating-star full-star"></span>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star half-star"></span>
+              <span class="rating-star empty-star"></span>
+            </div> <!-- /.rating -->
+            <p>Service</p>
+            <div class="rating">
+              <span class="rating-star full-star"></span>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star half-star"></span>
+              <span class="rating-star empty-star"></span>
+            </div> <!-- /.rating -->
+          </div> <!-- /.col-xs-12 .col-sm-5-->  
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="col-xs-12">
+            <p>
+              Maecenas vel nunc eros. Integer accumsan aliquam arcu, eu finibus magna. 
+              Aenean tincidunt in velit dictum consectetur. Morbi faucibus vehicula purus 
+              sit amet porttitor. Donec ultricies, quam et tempor hendrerit, neque neque 
+              blandit lorem, vitae sollicitudin mi lectus varius eros. Donec in mollis felis. 
+              Maecenas iaculis quam ante, quis semper sapien posuere quis. 
+              Morbi et gravida libero, sit amet ornare leo. Cras iaculis posuere risus, 
+              ac bibendum lorem lacinia sed. Nullam vitae nunc eu ligula placerat sagittis 
+              sed non ante. 
+            </p>
+          </div> <!-- /.col-xs-12 -->
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="col-xs-12">
+            <button type="submit" class="btn btn-primary btn-block">Reply</button>
+          </div>  <!-- /.col-xs-12 -->
+        </div>
+        <!-- PROFILE THREE -->
+        <div class="row">
+          <div class="col-xs-12">
+            <svg height="20" width="100%">
+              <line x1="100%" y1="10" x2="0" y2="10" style="stroke:rgb(0,0,0);stroke-width:2" />
+            </svg>
+          </div> <!-- /.col-xs-12 -->
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="col-xs-8 col-sm-4">
+            <div class="img-thumbnail">
+              <img src="img/profile.jpg" alt="profile-img1">
+            </div> <!-- /.img-thumbnail -->
+          </div> <!-- /.col-xs-8 .col-sm-4-->
+          <div class="col-xs-4 col-sm-2">
+            <p>Name</p>
+          </div> <!-- /.col-xs-4 .col-sm-2-->
+          <div class="hidden-xs col-sm-1">
+            <svg height="175" width="100%">
+              <line x1="10" y1="100%" x2="10" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+            </svg>
+          </div> <!-- /.hidden-xs col-sm-1 -->
+          <div class="col-xs-12 col-sm-5">
+            <h3>Overall Rating: 4.5</h3>
+            <p>Food</p>
+            <div class="rating">
+              <span class="rating-star full-star"></span>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star half-star"></span>
+              <span class="rating-star empty-star"></span>
+            </div> <!-- /.rating -->
+            <p>Service</p>
+            <div class="rating">
+              <span class="rating-star full-star"></span>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star half-star"></span>
+              <span class="rating-star empty-star"></span>
+            </div> <!-- /.rating -->
+          </div> <!-- /.col-xs-12 .col-sm-5--> 
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="col-xs-12">
+            <p>
+              Maecenas vel nunc eros. Integer accumsan aliquam arcu, eu finibus magna. 
+              Aenean tincidunt in velit dictum consectetur. Morbi faucibus vehicula purus 
+              sit amet porttitor. Donec ultricies, quam et tempor hendrerit, neque neque 
+              blandit lorem, vitae sollicitudin mi lectus varius eros. Donec in mollis felis. 
+              Maecenas iaculis quam ante, quis semper sapien posuere quis. 
+              Morbi et gravida libero, sit amet ornare leo. Cras iaculis posuere risus, 
+              ac bibendum lorem lacinia sed. Nullam vitae nunc eu ligula placerat sagittis 
+              sed non ante. 
+            </p>
+          </div> <!-- /.col-xs-12 -->
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="col-xs-12">
+            <button type="submit" class="btn btn-primary btn-block">Reply</button>
+          </div>  <!-- /.col-xs-12 -->
+        </div>
+        <!-- PROFILE FOUR -->
+        <div class="row">
+          <div class="col-xs-12">
+            <svg height="20" width="100%">
+              <line x1="100%" y1="10" x2="0" y2="10" style="stroke:rgb(0,0,0);stroke-width:2" />
+            </svg>
+          </div> <!-- /.col-xs-12 -->
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="col-xs-8 col-sm-4">
+            <div class="img-thumbnail">
+              <img src="img/profile.jpg" alt="profile-img1">
+            </div> <!-- /.img-thumbnail -->
+          </div> <!-- /.col-xs-8 .col-sm-4-->
+          <div class="col-xs-4 col-sm-2">
+            <p>Name</p>
+          </div> <!-- /.col-xs-4 .col-sm-2-->
+          <div class="hidden-xs col-sm-1">
+            <svg height="175" width="100%">
+              <line x1="10" y1="100%" x2="10" y2="0" style="stroke:rgb(0,0,0);stroke-width:2" />
+            </svg>
+          </div> <!-- /.hidden-xs col-sm-1 -->
+          <div class="col-xs-12 col-sm-5">
+            <h3>Overall Rating: 4.5</h3>
+            <p>Food</p>
+            <div class="rating">
+              <span class="rating-star full-star"></span>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star half-star"></span>
+              <span class="rating-star empty-star"></span>
+            </div> <!-- /.rating -->
+            <p>Service</p>
+            <div class="rating">
+              <span class="rating-star full-star"></span>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star full-star"></span>
+              <span class="rating-star half-star"></span>
+              <span class="rating-star empty-star"></span>
+            </div> <!-- /.rating -->
+          </div> <!-- /.col-xs-12 .col-sm-5--> 
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="col-xs-12">
+            <p>
+              Maecenas vel nunc eros. Integer accumsan aliquam arcu, eu finibus magna. 
+              Aenean tincidunt in velit dictum consectetur. Morbi faucibus vehicula purus 
+              sit amet porttitor. Donec ultricies, quam et tempor hendrerit, neque neque 
+              blandit lorem, vitae sollicitudin mi lectus varius eros. Donec in mollis felis. 
+              Maecenas iaculis quam ante, quis semper sapien posuere quis. 
+              Morbi et gravida libero, sit amet ornare leo. Cras iaculis posuere risus, 
+              ac bibendum lorem lacinia sed. Nullam vitae nunc eu ligula placerat sagittis 
+              sed non ante. 
+            </p>
+          </div> <!-- /.col-xs-12 -->
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="col-xs-12">
+            <button type="submit" class="btn btn-primary btn-block">Reply</button>
+          </div>  <!-- /.col-xs-12 -->
+        </div>        
+      </div> <!-- /.container -->
+    </section> <!-- /.read-review -->
 
     <footer>
       <div class="container">
