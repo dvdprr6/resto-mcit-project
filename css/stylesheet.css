@@ -7,6 +7,10 @@ body {
     padding-top: 50px;
 }
 
+.my-container{
+    margin: 0 10px;
+}
+
 .right{
     float: right;
 }
@@ -84,6 +88,9 @@ footer p{
 
 .details{
     margin-top: 10px;
+}
+
+.details-background{
     background-color: #efe09b;
 }
 
@@ -97,11 +104,6 @@ footer p{
 .details p{
     color: #ac1121;
     margin: 0 0 0 0;
-}
-
-
-.details #list{
-    margin: 0 auto;
 }
 
 .details .address p{
@@ -138,6 +140,7 @@ footer p{
 
 .write-review h1{
     text-align: center;
+    color: #ac1121;
 }
 
 .write-review .rating p{
@@ -176,9 +179,15 @@ footer p{
 
 /* Read a Review */
 
-.read-review h2,
-.read-review h3{
+.read-review h2{
     text-align: center;
+    color: #ac1121;
+}
+
+
+.read-review .img-thumbnail{
+    border: none;
+    text-align: right;
 }
 
 .read-review p{
@@ -255,8 +264,13 @@ footer p{
         font-weight: bold;
     }
 
+    /******************/
+    /*   REVIEWS.HTML */
+    /******************/
 
-
+    .read-review .img-thumbnail{
+        border: 1px solid #ddd;
+    }
 
 }
 
